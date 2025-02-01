@@ -16,4 +16,4 @@ To-Dos for Twizzy Tech
 - [ ] Containerize Database C=
 - [x] Research Vehicle Types
 - [ ] Input Vehicle Types to the App
-- [ ] Learn a Coreagraphy to "Bye Bye Bye" by NSYNC
+- [ ] Learn a Coreography to "Bye Bye Bye" by NSYNC
