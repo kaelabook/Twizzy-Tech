@@ -1,11 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: url('/public/download.jpg');
+    /*background: url('assets/images/download.jpg'); */
     background-size: cover;
     color: #ffffff;
     position: relative;
-  }
+}
+
   
   .container {
     max-width: 100%;
@@ -90,3 +91,24 @@ body {
     text-decoration: none;
    
   }
+
+  /* Create Your Car Button */
+.add-car-btn {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #ff5733;
+    color: white;
+    padding: 18px 28px;
+    font-size: 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .add-car-btn:hover {
+    background-color: #d84315;
+  }
+
+  

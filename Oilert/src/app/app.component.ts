@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'Oilert';
+
+  toggleMenu() {
+    const dropdown = document.getElementById('dropdownMenu');
+    if (dropdown) {
+      dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+    }
+  }
 }
