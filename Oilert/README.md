@@ -1,59 +1,22 @@
-# Oilert
+# To-Do List Full Stack Application
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.1.4.
+## Architecture Overview
+- Frontend: Built with React, utilizing Vite for an efficient development environment and bundled production build. The frontend communicates with the backend through RESTful API calls, facilitated by Axios for handling HTTP requests.
+- Backend: Developed with Node.js and Express, providing a set of REST API endpoints for task management. It includes middleware for CORS to allow cross-origin requests from the frontend.
 
-## Development server
+## Project Structure
+The project is organized into two main directories:
 
-To start a local development server, run:
+- /frontend: Contains the React application code, including components, services for API calls, and the application entry point.
+- /backend: Houses the Express server code, API endpoints, and the logic for managing tasks in-memory.
 
-```bash
-ng serve
-```
+## Key Features
+- Task Management: Users can interact with a simple and intuitive interface to manage their tasks.
+- RESTful API: The backend provides a RESTful API for task operations, adhering to best practices in API development.
+- Cross-Origin Resource Sharing (CORS): Configured to allow the frontend to make requests to the backend seamlessly.
+- Modern JavaScript Features: Uses ES6+ features for cleaner and more efficient code.
+## Getting Started
+To get the application running, you will need to set up both the frontend and backend. Each part has its own set of dependencies and run scripts. Detailed instructions are available within the respective README files in the /frontend and /backend directories.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
-
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Prerequisites
+- Node.js: Ensure you have Node.js installed on your machine to run the backend server and the frontend 
