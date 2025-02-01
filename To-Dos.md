@@ -14,3 +14,6 @@ To-Dos for Twizzy Tech
 - [ ] Solve climate change ;)
 - [ ] Practice presentation
 - [ ] Containerize Database C=
+- [x] Research Vehicle Types
+- [ ] Input Vehicle Types to the App
+- [ ] Learn a Coreagraphy to "Bye Bye Bye" by NSYNC
