@@ -10,9 +10,11 @@ export class AppComponent {
   title = 'Oilert';
 
   toggleMenu() {
-    const dropdown = document.getElementById('dropdownMenu');
-    if (dropdown) {
-      dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+    const dropdown = document.getElementById('dropdownMenu') as HTMLElement;
+    if (dropdown.style.display === 'block') {
+      dropdown.style.display = 'none';
+    } else {
+      dropdown.style.display = 'block';
     }
   }
 }

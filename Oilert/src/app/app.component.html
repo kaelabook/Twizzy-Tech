@@ -1,25 +1,42 @@
 <div class="body">
-<div class="container">
-  <header>
-    <h1>Oilert</h1>
-    <div class="notification">
-      <span class="icon">🔔</span>
-      <span class="badge">1</span>
-    </div>
-  </header>
+  <div class="container">
+    <header>
+      <h1>Oilert</h1>
+      <div class="notification">
+        <span class="icon">🔔</span>
+        <span class="badge">1</span>
+      </div>
+    </header>
 
-  <div class="menu-container">
-    <button class="menu-btn">☰ Menu</button>
-    <div class="dropdown-content">
-      <a href="#">Login</a>
-      <a href="#">Vehicle Support</a>
-      <a href="#">Fuel Logging</a>
-      <a href="#">MPG Calculation</a>
-      <a href="#">Maintenance Reminders</a>
-      <a href="#">Service History Tracking</a>
+    <div class="menu-container">
+      <button class="menu-btn" onclick="toggleMenu()">☰ Menu</button>
+      <div class="dropdown-content" id="dropdownMenu">
+        <a href="#">Login</a>
+        <a href="#">Vehicle Support</a>
+        <a href="#">Fuel Logging</a>
+        <a href="#">MPG Calculation</a>
+        <a href="#">Maintenance Reminders</a>
+        <a href="#">Service History Tracking</a>
+      </div>
+    </div>
+
+    <!-- Car Name Buttons -->
+    <div class="car-buttons">
+      <button class="car-btn">Toyota Corolla</button>
+      <button class="car-btn">Honda Civic</button>
+      <button class="car-btn">Ford Mustang</button>
+      <button class="car-btn">+ Vehicle</button>
     </div>
   </div>
+</div>
 
-  <button class="add-car-btn">+ Create Your Car</button>
-</div>
-</div>
+<script>
+  function toggleMenu() {
+    var dropdown = document.getElementById("dropdownMenu");
+    if (dropdown.style.display === "block") {
+      dropdown.style.display = "none";
+    } else {
+      dropdown.style.display = "block";
+    }
+  }
+</script>
