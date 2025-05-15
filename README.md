@@ -1,6 +1,8 @@
 # Twizzy-Tech
 Repository for 2025 Make-IT-Wright Hackathon: Twizzy Tech
 
+[Recommendation Letter](https://github.com/kaelabook/Twizzy-Tech/blob/main/Twizzy%20Tech.pdf)
+
 ## Team Members
   - Wyatt Sellers (CS Freshman)
   - Madison Sellers (ME Junior)
